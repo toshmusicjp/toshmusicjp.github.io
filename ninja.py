@@ -40,6 +40,7 @@ def chkwall(cx, cy):
     return c
 
 def restart_game():
+    pyxel.load("ninja.pyxres")
     global x, y, dx, dy, jump, score, scroll_x, scroll_y, is_goal, is_game_over, time_left
     x, y = 8, 100
     dx, dy = 0, 0
