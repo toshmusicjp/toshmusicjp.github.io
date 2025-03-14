@@ -1,1 +1,0 @@
-*.pyxapp application/octet-stream
