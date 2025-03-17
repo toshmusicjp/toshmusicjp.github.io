@@ -1,3 +1,8 @@
+import os
+os.path.isfile("./ninja.py")
+
+import ninja
+
 import pyxel
 
 class App:
