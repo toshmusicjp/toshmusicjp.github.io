@@ -1,10 +1,5 @@
 import pyxel
 
-import os
-os.path.isfile("./ninja.py")
-
-import ninja
-
 class App:
     def __init__(self):
         pyxel.init(128, 128, title="NINJA")
