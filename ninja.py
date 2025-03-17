@@ -1,4 +1,6 @@
+import os
 import pyxel
+os.path.isfile("./ninja.py")
 
 class App:
     def __init__(self):
