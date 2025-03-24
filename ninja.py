@@ -3,7 +3,7 @@ import pyxel
 class App:
     def __init__(self):
         pyxel.init(128, 128, title="NINJA")
-        pyxel.load("ninja_res.pyxres")
+        pyxel.load("ninja.pyxres")
 
         self.STAGE_WIDTH = 256 * 3
         self.STAGE_HEIGHT = 128 * 2
